@@ -1,0 +1,6 @@
+framework module Pods_LGVideoBrowseDemo {
+  umbrella header "Pods-LGVideoBrowseDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

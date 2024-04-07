@@ -1,0 +1,68 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - Kingfisher (6.3.1)
+  - Lantern (1.1.5)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SJMediaCacheServer (1.7.8):
+    - SJMediaCacheServer/Core (= 1.7.8)
+    - SJMediaCacheServer/KTVCocoaHTTPServer (= 1.7.8)
+    - SJUIKit/SQLite3
+  - SJMediaCacheServer/Core (1.7.8):
+    - SJMediaCacheServer/KTVCocoaHTTPServer
+    - SJUIKit/SQLite3
+  - SJMediaCacheServer/KTVCocoaHTTPServer (1.7.8):
+    - CocoaAsyncSocket
+    - SJUIKit/SQLite3
+  - SJUIKit/SQLite3 (0.0.0.59):
+    - SJUIKit/SQLite3/Core (= 0.0.0.59)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.59)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.59):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.59):
+    - YYModel
+  - SnapKit (5.6.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Kingfisher
+  - Lantern
+  - RxCocoa (~> 6.2.0)
+  - RxSwift (~> 6.2.0)
+  - SJMediaCacheServer
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - Kingfisher
+    - Lantern
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SJMediaCacheServer
+    - SJUIKit
+    - SnapKit
+    - YYModel
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Lantern: b192e7146c6d04e15e627f37281254a6a8593703
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SJMediaCacheServer: 95bebce42f281fccaff25a5e8284022478ff7ba5
+  SJUIKit: a40111941e408cc17d4c1c23495aa92999e814b0
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 93d61d292b690e1e8ae95b521bfe8a04aa4c2394
+
+COCOAPODS: 1.14.3
